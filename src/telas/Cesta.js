@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet,Image,Dimensions, Text, View} from 'react-native';
 
+
 import topo from '../../assets/topo.png';
 import logo from '../../assets/logo.png';
 
@@ -34,7 +35,7 @@ const estilos = StyleSheet.create({
         height: 578 / 768 * width,
     },
     titulo: {
-        width: "100%",
+       width: "100%",
        position: "absolute", 
        textAlign: "center",
        fontSize: 16,
@@ -47,7 +48,8 @@ const estilos = StyleSheet.create({
         color: "#464646",
         fontSize: 26,
         lineHeight: 42,
-        fontWeight: "bold"
+        fontWeight: "bold",
+        fontFamily: "MontserratBold"
     },
     cesta:{
             paddingVertical: 8,
@@ -68,6 +70,7 @@ const estilos = StyleSheet.create({
         lineHeight: 26,
         fontweight: "bold",
         marginLeft: 12,
+        fontFamily: "MontserratRegular"
     },
     descricao: {
         color: "#A3A3A3",
@@ -75,9 +78,9 @@ const estilos = StyleSheet.create({
         lineHeight: 26
     },
     preco: {
-        color: "#87cefa",
+        color: "#00008b",
         fontWeight: "bold",
-        fontSize: 16,
+        fontSize: 18,
         lineHeight: 42,
         marginTop: 8,
     
